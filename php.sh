@@ -17,7 +17,7 @@ fi
 brew update
 
 # Install PHP environment packages
-brew install homebrew/php/php71
+brew install php72
 brew install mysql
 
 # Start mysql server
