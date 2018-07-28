@@ -57,7 +57,7 @@ You could also use `~/.extra` to override settings, functions and aliases from m
 
 ### Sensible macOS defaults
 
-When setting up a new Mac, you may want to set some sensible macOS defaults:
+When setting up a new Mac, you may want to set some sensible macOS defaults.  Be sure to edit near line 17 of `.macos` to use your preferred ID.  Once that is finished, run:
 
 ```bash
 ./.macos
