@@ -14,11 +14,11 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-# Change these to your own!
-sudo scutil --set ComputerName "0x746f6e79"
-sudo scutil --set HostName "0x746f6e79"
-sudo scutil --set LocalHostName "0x746f6e79"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x746f6e79"
+# Change these to your own ID before uncommenting!
+# sudo scutil --set ComputerName "0x746f6e79"
+# sudo scutil --set HostName "0x746f6e79"
+# sudo scutil --set LocalHostName "0x746f6e79"
+# sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x746f6e79"
 
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
