@@ -138,6 +138,7 @@ brew cask install --appdir="/Applications" telegram
 brew cask install --appdir="/Applications" transmission
 brew cask install --appdir="/Applications" unified-remote
 brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" gimp
 
 # Remove outdated versions from the cellar.
 brew cleanup
