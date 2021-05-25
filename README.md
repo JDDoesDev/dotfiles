@@ -17,13 +17,13 @@ git clone https://github.com/jddoesdev/dotfiles.git && cd dotfiles && source boo
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
-source bootstrap.sh
+bash bootstrap.sh
 ```
 
 Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
-set -- -f; source bootstrap.sh
+set -- -f; bash bootstrap.sh
 ```
 
 ### Git-free install
@@ -45,10 +45,10 @@ My `~/.extra` looks something like this:
 ```bash
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="Mathias Bynens"
+GIT_AUTHOR_NAME="Tony Phipps"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="mathias@mailinator.com"
+GIT_AUTHOR_EMAIL="tony@mailinator.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
